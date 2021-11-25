@@ -1,12 +1,12 @@
 ---
 output: github_document
 params:
-  trilha_clean: programacao_para_ciencia_de_dados
-  main_repo: main-intro-programacao
-  turma: 202102-intro-programacao
-  nome_curso: ATUALIZANDO....
+  main_repo: main-web-scraping
+  trilha_clean: web_scraping
+  turma: 202202-web-scraping
+  nome_curso: Web scraping
   num_aula: '0'
-  download_material: 'FALSE'
+  download_material: 'TRUE'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

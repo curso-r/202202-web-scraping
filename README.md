@@ -3,6 +3,10 @@
 
 ## Informações importantes
 
+  - [Clique
+    aqui](https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip)
+    para baixar o material do curso.
+
   - Nosso blog: <https://curso-r.com/blog/>
 
   - Nossos livros: [Ciência de Dados em R](https://livro.curso-r.com/) e
@@ -19,52 +23,61 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slides                                                                                                                         | pdf                                                                                                                          |
-| :----------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| [01-introducao-ao-curso.html](https://curso-r.github.io/main-intro-programacao/slides/01-introducao-ao-curso.html)             | [01-introducao-ao-curso.pdf](https://curso-r.github.io/main-intro-programacao/slides/01-introducao-ao-curso.pdf)             |
-| [02-introducao-ao-RStudio.html](https://curso-r.github.io/main-intro-programacao/slides/02-introducao-ao-RStudio.html)         | [02-introducao-ao-RStudio.pdf](https://curso-r.github.io/main-intro-programacao/slides/02-introducao-ao-RStudio.pdf)         |
-| [03-introducao-ao-R.html](https://curso-r.github.io/main-intro-programacao/slides/03-introducao-ao-R.html)                     | [03-introducao-ao-R.pdf](https://curso-r.github.io/main-intro-programacao/slides/03-introducao-ao-R.pdf)                     |
-| [04-tabelas.html](https://curso-r.github.io/main-intro-programacao/slides/04-tabelas.html)                                     | [04-tabelas.pdf](https://curso-r.github.io/main-intro-programacao/slides/04-tabelas.pdf)                                     |
-| [05-filtros.html](https://curso-r.github.io/main-intro-programacao/slides/05-filtros.html)                                     | [05-filtros.pdf](https://curso-r.github.io/main-intro-programacao/slides/05-filtros.pdf)                                     |
-| [06-controle-de-fluxo-e-loops.html](https://curso-r.github.io/main-intro-programacao/slides/06-controle-de-fluxo-e-loops.html) | [06-controle-de-fluxo-e-loops.pdf](https://curso-r.github.io/main-intro-programacao/slides/06-controle-de-fluxo-e-loops.pdf) |
-| [07-funcoes.html](https://curso-r.github.io/main-intro-programacao/slides/07-funcoes.html)                                     | [07-funcoes.pdf](https://curso-r.github.io/main-intro-programacao/slides/07-funcoes.pdf)                                     |
-| [08-manipulacao-de-arquivos.html](https://curso-r.github.io/main-intro-programacao/slides/08-manipulacao-de-arquivos.html)     | [08-manipulacao-de-arquivos.pdf](https://curso-r.github.io/main-intro-programacao/slides/08-manipulacao-de-arquivos.pdf)     |
+| slides                                                                                                        | pdf                                                                                                         |
+| :------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------- |
+| [01-introducao-ao-curso.html](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.html) | [01-introducao-ao-curso.pdf](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.pdf) |
+| [02-introducao-ao-ws.html](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.html)       | [02-introducao-ao-ws.pdf](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.pdf)       |
+| [03-navegador.html](https://curso-r.github.io/main-web-scraping/slides/03-navegador.html)                     | [03-navegador.pdf](https://curso-r.github.io/main-web-scraping/slides/03-navegador.pdf)                     |
+| [04-auth.html](https://curso-r.github.io/main-web-scraping/slides/04-auth.html)                               | [04-auth.pdf](https://curso-r.github.io/main-web-scraping/slides/04-auth.pdf)                               |
+| [05-html.html](https://curso-r.github.io/main-web-scraping/slides/05-html.html)                               | [05-html.pdf](https://curso-r.github.io/main-web-scraping/slides/05-html.pdf)                               |
+| [06-path.html](https://curso-r.github.io/main-web-scraping/slides/06-path.html)                               | [06-path.pdf](https://curso-r.github.io/main-web-scraping/slides/06-path.pdf)                               |
+| [07-iteracao.html](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.html)                       | [07-iteracao.pdf](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.pdf)                       |
+| [08-webdriver.html](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.html)                     | [08-webdriver.pdf](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.pdf)                     |
 
 ## Scripts utilizados em aula
 
-| script                                                                                                                                                     |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [exemplos\_de\_aula/01-introducao.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/01-introducao.R)                     |
-| [exemplos\_de\_aula/02-tabelas.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/02-tabelas.R)                           |
-| [exemplos\_de\_aula/03-filtros.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/03-filtros.R)                           |
-| [exemplos\_de\_aula/04-controle-de-fluxo-NA.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/04-controle-de-fluxo-NA.R) |
-| [exemplos\_de\_aula/05-loops.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/05-loops.R)                               |
-| [exemplos\_de\_aula/06-loops-2.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/06-loops-2.R)                           |
-| [exemplos\_de\_aula/07-funcoes.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/07-funcoes.R)                           |
-| [exemplos\_de\_aula/08-pipe.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/08-pipe.R)                                 |
-| [exemplos\_de\_aula/09-instalar-pacotes.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/09-instalar-pacotes.R)         |
-| [exemplos\_de\_aula/10-manipulacao-arquivos.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/10-manipulacao-arquivos.R) |
-| [exemplos\_de\_aula/11-exemplo-source.R](https://github.com/curso-r/202102-intro-programacao/blob/master/exemplos_de_aula/11-exemplo-source.R)             |
+| script                                                                                                                              |
+| :---------------------------------------------------------------------------------------------------------------------------------- |
+| [exemplos\_de\_aula/01-pokemon.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/01-pokemon.R)         |
+| [exemplos\_de\_aula/02-sabesp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/02-sabesp.R)           |
+| [exemplos\_de\_aula/03-sptrans.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/03-sptrans.R)         |
+| [exemplos\_de\_aula/04-twitter.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/04-twitter.R)         |
+| [exemplos\_de\_aula/05-covid.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/05-covid.R)             |
+| [exemplos\_de\_aula/06-html.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/06-html.R)               |
+| [exemplos\_de\_aula/07-chancedegol.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/07-chancedegol.R) |
+| [exemplos\_de\_aula/08-tjsp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/08-tjsp.R)               |
+| [exemplos\_de\_aula/09-glueup.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/09-glueup.R)           |
+| [exemplos\_de\_aula/10-wiki.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/10-wiki.R)               |
+| [exemplos\_de\_aula/11-dejt.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/11-dejt.R)               |
+| [exemplos\_de\_aula/12-jobs.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/12-jobs.R)               |
+| [exemplos\_de\_aula/13-pesqele.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/13-pesqele.R)         |
+| [exemplos\_de\_aula/14-pbi.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/14-pbi.R)                 |
+| [exemplos\_de\_aula/16-tjba.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/16-tjba.R)               |
+| [exemplos\_de\_aula/17-mp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/17-mp.R)                   |
+| [exemplos\_de\_aula/18-esalq.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/18-esalq.R)             |
 
 ## Lição de casa
 
-| exercicio                                                                                               |
-| :------------------------------------------------------------------------------------------------------ |
-| [exercicios/1-introducao.R](https://curso-r.github.io/main-intro-programacao/exercicios/1-introducao.R) |
-| [exercicios/2-tabelas.R](https://curso-r.github.io/main-intro-programacao/exercicios/2-tabelas.R)       |
-| [exercicios/3-filtros.R](https://curso-r.github.io/main-intro-programacao/exercicios/3-filtros.R)       |
-| [exercicios/4-operadores.R](https://curso-r.github.io/main-intro-programacao/exercicios/4-operadores.R) |
-| [exercicios/5-loops.R](https://curso-r.github.io/main-intro-programacao/exercicios/5-loops.R)           |
-| [exercicios/6-funcoes.R](https://curso-r.github.io/main-intro-programacao/exercicios/6-funcoes.R)       |
+| exercicio                                                                                              |
+| :----------------------------------------------------------------------------------------------------- |
+| [exercicios/01-pokemon.R](https://curso-r.github.io/main-web-scraping/exercicios/01-pokemon.R)         |
+| [exercicios/02-sabesp.R](https://curso-r.github.io/main-web-scraping/exercicios/02-sabesp.R)           |
+| [exercicios/03-sptrans.R](https://curso-r.github.io/main-web-scraping/exercicios/03-sptrans.R)         |
+| [exercicios/04-twitter.R](https://curso-r.github.io/main-web-scraping/exercicios/04-twitter.R)         |
+| [exercicios/05-covid.R](https://curso-r.github.io/main-web-scraping/exercicios/05-covid.R)             |
+| [exercicios/06-html.R](https://curso-r.github.io/main-web-scraping/exercicios/06-html.R)               |
+| [exercicios/07-chancedegol.R](https://curso-r.github.io/main-web-scraping/exercicios/07-chancedegol.R) |
+| [exercicios/08-tjsp.R](https://curso-r.github.io/main-web-scraping/exercicios/08-tjsp.R)               |
+| [exercicios/10-wiki.R](https://curso-r.github.io/main-web-scraping/exercicios/10-wiki.R)               |
+| [exercicios/11-dejt.R](https://curso-r.github.io/main-web-scraping/exercicios/11-dejt.R)               |
+| [exercicios/12-jobs.R](https://curso-r.github.io/main-web-scraping/exercicios/12-jobs.R)               |
+| [exercicios/13-pesqele.R](https://curso-r.github.io/main-web-scraping/exercicios/13-pesqele.R)         |
+| [exercicios/14-pbi.R](https://curso-r.github.io/main-web-scraping/exercicios/14-pbi.R)                 |
 
 ## Trabalhos finais premiados
 
-| pasta\_compactada                                                                                                                                                    |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [trabalhos\_premiados/trabalho\_ana\_rafaela.zip](https://github.com/curso-r/202102-intro-programacao/raw/master/trabalhos_premiados/trabalho_ana_rafaela.zip)       |
-| [trabalhos\_premiados/trabalho\_fernando\_jose.rar](https://github.com/curso-r/202102-intro-programacao/raw/master/trabalhos_premiados/trabalho_fernando_jose.rar)   |
-| [trabalhos\_premiados/trabalho\_maykon.zip](https://github.com/curso-r/202102-intro-programacao/raw/master/trabalhos_premiados/trabalho_maykon.zip)                  |
-| [trabalhos\_premiados/trabalho\_victor\_valerio.zip](https://github.com/curso-r/202102-intro-programacao/raw/master/trabalhos_premiados/trabalho_victor_valerio.zip) |
+| pasta\_compactada |
+| :---------------- |
 
 ## Material extra
 

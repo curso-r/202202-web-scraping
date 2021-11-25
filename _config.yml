@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 logo: assets/logo.png
-title: ATUALIZANDO....
-show_downloads: false
+title: Web scraping
+show_downloads: true
+link_material: 'https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip'
