@@ -3,28 +3,28 @@
 
 ## Informações importantes
 
--   [Clique
+  - [Clique
     aqui](https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip)
     para baixar o material do curso.
 
--   Nosso blog: <https://curso-r.com/blog/>
+  - Nosso blog: <https://curso-r.com/blog/>
 
--   Nossos livros: [Ciência de Dados em R](https://livro.curso-r.com/) e
+  - Nossos livros: [Ciência de Dados em R](https://livro.curso-r.com/) e
     [Zen do R](https://curso-r.github.io/zen-do-r/)
 
 ## Dúvidas
 
 Fora do horário de aula ou monitoria:
 
--   perguntas gerais sobre o curso deverão ser feitas no Classroom.
+  - perguntas gerais sobre o curso deverão ser feitas no Classroom.
 
--   perguntas sobre R, principalmente as que envolverem código, deverão
+  - perguntas sobre R, principalmente as que envolverem código, deverão
     ser enviadas no [nosso fórum](https://discourse.curso-r.com/).
 
 ## Slides
 
 | slides                                                                                                        | pdf                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
+| :------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------- |
 | [01-introducao-ao-curso.html](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.html) | [NA](https://curso-r.github.io/main-web-scraping/NA)                                                  |
 | [02-introducao-ao-ws.html](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.html)       | [02-introducao-ao-ws.pdf](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.pdf) |
 | [03-navegador.html](https://curso-r.github.io/main-web-scraping/slides/03-navegador.html)                     | [03-navegador.pdf](https://curso-r.github.io/main-web-scraping/slides/03-navegador.pdf)               |
@@ -36,29 +36,29 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script                                                                                                                            |
-|:----------------------------------------------------------------------------------------------------------------------------------|
-| [exemplos_de_aula/01-brasilapi.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/01-brasilapi.R)     |
-| [exemplos_de_aula/02-sabesp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/02-sabesp.R)           |
-| [exemplos_de_aula/03-sptrans.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/03-sptrans.R)         |
-| [exemplos_de_aula/04-twitter.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/04-twitter.R)         |
-| [exemplos_de_aula/05-covid.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/05-covid.R)             |
-| [exemplos_de_aula/06-html.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/06-html.R)               |
-| [exemplos_de_aula/07-chancedegol.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/07-chancedegol.R) |
-| [exemplos_de_aula/08-tjsp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/08-tjsp.R)               |
-| [exemplos_de_aula/09-glueup.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/09-glueup.R)           |
-| [exemplos_de_aula/10-wiki.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/10-wiki.R)               |
-| [exemplos_de_aula/11-dejt.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/11-dejt.R)               |
-| [exemplos_de_aula/12-jobs.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/12-jobs.R)               |
-| [exemplos_de_aula/13-pesqele.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/13-pesqele.R)         |
-| [exemplos_de_aula/14-pbi.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/14-pbi.R)                 |
-| [exemplos_de_aula/16-tjba.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/16-tjba.R)               |
-| [exemplos_de_aula/17-mp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/17-mp.R)                   |
+| script                                                                                                                              |
+| :---------------------------------------------------------------------------------------------------------------------------------- |
+| [exemplos\_de\_aula/01-brasilapi.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/01-brasilapi.R)     |
+| [exemplos\_de\_aula/02-sabesp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/02-sabesp.R)           |
+| [exemplos\_de\_aula/03-sptrans.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/03-sptrans.R)         |
+| [exemplos\_de\_aula/04-twitter.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/04-twitter.R)         |
+| [exemplos\_de\_aula/05-covid.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/05-covid.R)             |
+| [exemplos\_de\_aula/06-html.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/06-html.R)               |
+| [exemplos\_de\_aula/07-chancedegol.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/07-chancedegol.R) |
+| [exemplos\_de\_aula/08-tjsp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/08-tjsp.R)               |
+| [exemplos\_de\_aula/09-glueup.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/09-glueup.R)           |
+| [exemplos\_de\_aula/10-wiki.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/10-wiki.R)               |
+| [exemplos\_de\_aula/11-dejt.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/11-dejt.R)               |
+| [exemplos\_de\_aula/12-jobs.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/12-jobs.R)               |
+| [exemplos\_de\_aula/13-pesqele.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/13-pesqele.R)         |
+| [exemplos\_de\_aula/14-pbi.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/14-pbi.R)                 |
+| [exemplos\_de\_aula/16-tjba.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/16-tjba.R)               |
+| [exemplos\_de\_aula/17-mp.R](https://github.com/curso-r/202202-web-scraping/blob/master/exemplos_de_aula/17-mp.R)                   |
 
 ## Lição de casa
 
 | exercicio                                                                                              |
-|:-------------------------------------------------------------------------------------------------------|
+| :----------------------------------------------------------------------------------------------------- |
 | [exercicios/01-brasilapi.R](https://curso-r.github.io/main-web-scraping/exercicios/01-brasilapi.R)     |
 | [exercicios/02-sabesp.R](https://curso-r.github.io/main-web-scraping/exercicios/02-sabesp.R)           |
 | [exercicios/03-sptrans.R](https://curso-r.github.io/main-web-scraping/exercicios/03-sptrans.R)         |
@@ -75,8 +75,8 @@ Fora do horário de aula ou monitoria:
 
 ## Trabalhos finais premiados
 
-| pasta_compactada |
-|:-----------------|
+| pasta\_compactada |
+| :---------------- |
 
 ## Material extra
 
@@ -85,7 +85,7 @@ que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
 | Aula | Tema | Descrição |
-|:-----|:-----|:----------|
+| :--- | :--- | :-------- |
 
 ## Redes sociais da Curso-R
 
