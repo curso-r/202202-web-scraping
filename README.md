@@ -23,16 +23,16 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slides                                                                                                        | pdf                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [01-introducao-ao-curso.html](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.html) | [NA](https://curso-r.github.io/main-web-scraping/NA)                                                  |
-| [02-introducao-ao-ws.html](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.html)       | [02-introducao-ao-ws.pdf](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.pdf) |
-| [03-navegador.html](https://curso-r.github.io/main-web-scraping/slides/03-navegador.html)                     | [03-navegador.pdf](https://curso-r.github.io/main-web-scraping/slides/03-navegador.pdf)               |
-| [04-auth.html](https://curso-r.github.io/main-web-scraping/slides/04-auth.html)                               | [04-auth.pdf](https://curso-r.github.io/main-web-scraping/slides/04-auth.pdf)                         |
-| [05-html.html](https://curso-r.github.io/main-web-scraping/slides/05-html.html)                               | [05-html.pdf](https://curso-r.github.io/main-web-scraping/slides/05-html.pdf)                         |
-| [06-path.html](https://curso-r.github.io/main-web-scraping/slides/06-path.html)                               | [06-path.pdf](https://curso-r.github.io/main-web-scraping/slides/06-path.pdf)                         |
-| [07-iteracao.html](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.html)                       | [07-iteracao.pdf](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.pdf)                 |
-| [08-webdriver.html](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.html)                     | [08-webdriver.pdf](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.pdf)               |
+| slides                                                                                                        | pdf                                                                                                         |
+|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| [01-introducao-ao-curso.html](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.html) | [01-introducao-ao-curso.pdf](https://curso-r.github.io/main-web-scraping/slides/01-introducao-ao-curso.pdf) |
+| [02-introducao-ao-ws.html](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.html)       | [02-introducao-ao-ws.pdf](https://curso-r.github.io/main-web-scraping/slides/02-introducao-ao-ws.pdf)       |
+| [03-navegador.html](https://curso-r.github.io/main-web-scraping/slides/03-navegador.html)                     | [03-navegador.pdf](https://curso-r.github.io/main-web-scraping/slides/03-navegador.pdf)                     |
+| [04-auth.html](https://curso-r.github.io/main-web-scraping/slides/04-auth.html)                               | [04-auth.pdf](https://curso-r.github.io/main-web-scraping/slides/04-auth.pdf)                               |
+| [05-html.html](https://curso-r.github.io/main-web-scraping/slides/05-html.html)                               | [05-html.pdf](https://curso-r.github.io/main-web-scraping/slides/05-html.pdf)                               |
+| [06-path.html](https://curso-r.github.io/main-web-scraping/slides/06-path.html)                               | [06-path.pdf](https://curso-r.github.io/main-web-scraping/slides/06-path.pdf)                               |
+| [07-iteracao.html](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.html)                       | [07-iteracao.pdf](https://curso-r.github.io/main-web-scraping/slides/07-iteracao.pdf)                       |
+| [08-webdriver.html](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.html)                     | [08-webdriver.pdf](https://curso-r.github.io/main-web-scraping/slides/08-webdriver.pdf)                     |
 
 ## Scripts utilizados em aula
 
