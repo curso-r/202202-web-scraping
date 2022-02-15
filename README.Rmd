@@ -5,7 +5,7 @@ params:
   trilha_clean: web_scraping
   turma: 202202-web-scraping
   nome_curso: Web scraping
-  num_aula: '0'
+  num_aula: '2'
   download_material: 'TRUE'
 ---
 
@@ -102,7 +102,11 @@ tibble::tibble(
   link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
-    dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
+  dplyr::filter(stringr::str_detect(
+    exercicio, 
+    paste(sprintf("%02d", seq_len(as.numeric(params$num_aula))), collapse = "|")
+  )) %>% 
+  dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
   dplyr::select(exercicio) %>% 
   knitr::kable()
 ```
