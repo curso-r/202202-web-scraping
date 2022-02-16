@@ -57,21 +57,10 @@ Fora do horário de aula ou monitoria:
 
 ## Lição de casa
 
-| exercicio                                                                                              |
-| :----------------------------------------------------------------------------------------------------- |
-| [exercicios/01-brasilapi.R](https://curso-r.github.io/main-web-scraping/exercicios/01-brasilapi.R)     |
-| [exercicios/02-sabesp.R](https://curso-r.github.io/main-web-scraping/exercicios/02-sabesp.R)           |
-| [exercicios/03-sptrans.R](https://curso-r.github.io/main-web-scraping/exercicios/03-sptrans.R)         |
-| [exercicios/04-twitter.R](https://curso-r.github.io/main-web-scraping/exercicios/04-twitter.R)         |
-| [exercicios/05-covid.R](https://curso-r.github.io/main-web-scraping/exercicios/05-covid.R)             |
-| [exercicios/06-html.R](https://curso-r.github.io/main-web-scraping/exercicios/06-html.R)               |
-| [exercicios/07-chancedegol.R](https://curso-r.github.io/main-web-scraping/exercicios/07-chancedegol.R) |
-| [exercicios/08-tjsp.R](https://curso-r.github.io/main-web-scraping/exercicios/08-tjsp.R)               |
-| [exercicios/10-wiki.R](https://curso-r.github.io/main-web-scraping/exercicios/10-wiki.R)               |
-| [exercicios/11-dejt.R](https://curso-r.github.io/main-web-scraping/exercicios/11-dejt.R)               |
-| [exercicios/12-jobs.R](https://curso-r.github.io/main-web-scraping/exercicios/12-jobs.R)               |
-| [exercicios/13-pesqele.R](https://curso-r.github.io/main-web-scraping/exercicios/13-pesqele.R)         |
-| [exercicios/14-pbi.R](https://curso-r.github.io/main-web-scraping/exercicios/14-pbi.R)                 |
+| exercicio                                                                                          |
+| :------------------------------------------------------------------------------------------------- |
+| [exercicios/01-brasilapi.R](https://curso-r.github.io/main-web-scraping/exercicios/01-brasilapi.R) |
+| [exercicios/02-sabesp.R](https://curso-r.github.io/main-web-scraping/exercicios/02-sabesp.R)       |
 
 ## Trabalhos finais premiados
 
@@ -84,8 +73,7 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-| Aula | Tema | Descrição |
-| :--- | :--- | :-------- |
+    #> [1] "Verificar tabela de materiais extras"
 
 ## Redes sociais da Curso-R
 
