@@ -5,7 +5,7 @@ params:
   trilha_clean: web_scraping
   turma: 202202-web-scraping
   nome_curso: Web scraping
-  num_aula: '2'
+  num_aula: '9'
   download_material: 'TRUE'
 ---
 
