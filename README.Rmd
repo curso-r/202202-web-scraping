@@ -44,15 +44,15 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-```{r}
-paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$") %>% 
+```{r, message=FALSE}
+paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$", pat = TRUE) %>% 
   tibble::enframe(value = "paths") %>% 
   dplyr::filter(!stringr::str_detect(paths, "figure-html")) %>% 
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) %>% 
   dplyr::select(-name)
 
 
-paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$") %>% 
+paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$", pat = TRUE) %>% 
   tibble::enframe(value = "paths_pdf") %>% 
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) %>%
   dplyr::select(-name)
@@ -74,13 +74,13 @@ dplyr::mutate(
 
 ## Scripts utilizados em aula
 
-```{r}
+```{r, message=FALSE}
 pasta <- "exemplos_de_aula/"
 
 
 knitr::kable(
   tibble::tibble(
-    script = CursoRopen:::list_github_files(params$main_repo, pasta, ".R$"),
+    script = CursoRopen:::list_github_files(params$main_repo, pasta, ".R$", pat = TRUE),
     link = paste0(
       "https://github.com/curso-r/",
       params$turma,
@@ -96,9 +96,9 @@ knitr::kable(
 
 ## Lição de casa
 
-```{r}
+```{r, message=FALSE}
 tibble::tibble(
-  nome = CursoRopen:::list_github_files(params$main_repo, "exercicios/"),
+  nome = CursoRopen:::list_github_files(params$main_repo, "exercicios/", pat = TRUE),
   link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
@@ -114,11 +114,11 @@ tibble::tibble(
 
 ## Trabalhos finais premiados
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 nome_pasta <- "trabalhos_premiados"
 
 tibble::tibble(
-  script = CursoRopen:::list_github_files(params$turma, nome_pasta, ".zip|.rar"),
+  script = CursoRopen:::list_github_files(params$turma, nome_pasta, ".zip|.rar", pat = TRUE),
   link = paste0(
     "https://github.com/curso-r/",
     params$turma,
@@ -138,8 +138,9 @@ tibble::tibble(
 Referências extras relacionadas com o conteúdos das aulas, ou materiais que comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o conteúdo da aula).
 
 ```{r echo=FALSE, message=FALSE}
-safe_buscar_materiais_extras <- purrr::possibly(.f = function(main_repo = params$main_repo, 
-                                                              trilha_clean = params$trilha_clean){
+safe_buscar_materiais_extras <- purrr::possibly(
+  .f = function(main_repo = params$main_repo, 
+                trilha_clean = params$trilha_clean) {
   library(magrittr, include.only = "%>%")
   googlesheets4::gs4_deauth()
 googledrive::drive_deauth()
