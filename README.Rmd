@@ -5,7 +5,7 @@ params:
   trilha_clean: web_scraping
   turma: 202202-web-scraping
   nome_curso: Web scraping
-  num_aula: '9'
+  num_aula: '4'
   download_material: 'TRUE'
 ---
 
@@ -80,11 +80,11 @@ pasta <- "exemplos_de_aula/"
 
 knitr::kable(
   tibble::tibble(
-    script = CursoRopen:::list_github_files(params$main_repo, pasta, ".R$", pat = TRUE),
+    script = fs::dir_ls(pasta, glob = "*.R"),
     link = paste0(
       "https://github.com/curso-r/",
       params$turma,
-      "/blob/master/",
+      "/blob/main/",
       script
     )
   ) %>%
@@ -102,10 +102,6 @@ tibble::tibble(
   link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
-  dplyr::filter(stringr::str_detect(
-    exercicio,
-    paste(sprintf("%02d", seq_len(as.numeric(params$num_aula))), collapse = "|")
-  )) %>%
   dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>%
   dplyr::select(exercicio) %>%
   knitr::kable()
@@ -122,7 +118,7 @@ tibble::tibble(
   link = paste0(
     "https://github.com/curso-r/",
     params$turma,
-    "/raw/master/",
+    "/raw/main/",
     script
   ),
   pasta_compactada = glue::glue("[{script}]({link})")
