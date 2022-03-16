@@ -45,19 +45,19 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r, message=FALSE}
-paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$", pat = TRUE) %>% 
-  tibble::enframe(value = "paths") %>% 
-  dplyr::filter(!stringr::str_detect(paths, "figure-html")) %>% 
-  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) %>% 
+paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$", pat = TRUE) %>%
+  tibble::enframe(value = "paths") %>%
+  dplyr::filter(!stringr::str_detect(paths, "figure-html")) %>%
+  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) %>%
   dplyr::select(-name)
 
 
-paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$", pat = TRUE) %>% 
-  tibble::enframe(value = "paths_pdf") %>% 
+paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$", pat = TRUE) %>%
+  tibble::enframe(value = "paths_pdf") %>%
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) %>%
   dplyr::select(-name)
 
-dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") %>% 
+dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") %>%
 dplyr::mutate(
   slide = paths,
   link = paste0("https://curso-r.github.io/", params$main_repo, "/", slide),
@@ -65,9 +65,9 @@ dplyr::mutate(
   slide_pdf = paths_pdf,
   link_pdf = paste0("https://curso-r.github.io/", params$main_repo, "/", slide_pdf),
   pdf = glue::glue("[{basename(slide_pdf)}]({link_pdf})")
-) %>% 
+) %>%
   dplyr::filter(!stringr::str_detect(slide, "_files/")) %>%
-  dplyr::select(slides, pdf) %>% 
+  dplyr::select(slides, pdf) %>%
   knitr::kable()
 ```
 
@@ -103,11 +103,11 @@ tibble::tibble(
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
   dplyr::filter(stringr::str_detect(
-    exercicio, 
+    exercicio,
     paste(sprintf("%02d", seq_len(as.numeric(params$num_aula))), collapse = "|")
-  )) %>% 
-  dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
-  dplyr::select(exercicio) %>% 
+  )) %>%
+  dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>%
+  dplyr::select(exercicio) %>%
   knitr::kable()
 ```
 
@@ -126,8 +126,8 @@ tibble::tibble(
     script
   ),
   pasta_compactada = glue::glue("[{script}]({link})")
-) %>% 
-  dplyr::select(pasta_compactada) %>% 
+) %>%
+  dplyr::select(pasta_compactada) %>%
   knitr::kable()
 ```
 
@@ -139,7 +139,7 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais que co
 
 ```{r echo=FALSE, message=FALSE}
 safe_buscar_materiais_extras <- purrr::possibly(
-  .f = function(main_repo = params$main_repo, 
+  .f = function(main_repo = params$main_repo,
                 trilha_clean = params$trilha_clean) {
   library(magrittr, include.only = "%>%")
   googlesheets4::gs4_deauth()
@@ -159,7 +159,7 @@ id_spreadsheet %>%
   dplyr::select(-desc,-url) %>%
   dplyr::arrange(aula) %>%
   # dplyr::filter(aula <= params$num_aula) %>%
-  knitr::kable(col.names = c("Aula", "Tema", "Descrição")) 
+  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
 }, "erro")
 
 
@@ -196,7 +196,7 @@ if(params$download_material == TRUE){
     "title: {params$nome_curso}", '\n',
     "show_downloads: true", '\n',
     "link_material: 'https://github.com/curso-r/{params$main_repo}/raw/master/material_do_curso.zip'", '\n'
-    
+
     ) %>%
     readr::write_lines( "_config.yml")
 }
