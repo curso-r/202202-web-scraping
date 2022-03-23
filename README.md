@@ -51,6 +51,7 @@ Fora do horário de aula ou monitoria:
 | [exemplos_de_aula/08-tjsp.R](https://github.com/curso-r/202202-web-scraping/blob/main/exemplos_de_aula/08-tjsp.R)               |
 | [exemplos_de_aula/10-wiki.R](https://github.com/curso-r/202202-web-scraping/blob/main/exemplos_de_aula/10-wiki.R)               |
 | [exemplos_de_aula/12-jobs.R](https://github.com/curso-r/202202-web-scraping/blob/main/exemplos_de_aula/12-jobs.R)               |
+| [exemplos_de_aula/13-nba.R](https://github.com/curso-r/202202-web-scraping/blob/main/exemplos_de_aula/13-nba.R)                 |
 
 ## Lição de casa
 
